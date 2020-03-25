@@ -1,12 +1,13 @@
 #write your code here
 
 def countdown(number)
-  output = "#{num
-  until number == 0
+  x = number
+  output = "#{number} SECOND(S)!"
+  if x != 0
     puts output
     number = number -1
   end
-  if number == 0
+  if x == 0
     output = "Happy New Year!"
   end
   output
