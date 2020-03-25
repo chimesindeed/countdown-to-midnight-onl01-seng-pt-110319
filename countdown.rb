@@ -1,9 +1,9 @@
 #write your code here
 
 def countdown(number)
-  while number > 0 
-    puts "#{number} SECOND(S)!"
+  do puts "#{number} SECOND(S)!"
     number = number -1
+  until number ==0
   end
     
 end
